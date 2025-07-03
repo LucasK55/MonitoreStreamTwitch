@@ -43,6 +43,16 @@ python bot_discord2.py
 
 El bot se conectará a Discord y comenzará a monitorear los canales de Twitch especificados. Cuando detecte que un canal está en vivo, abrirá el stream y enviará el mensaje configurado en el chat.
 
+## Utilidad: pruebaCoordenadas.py
+
+Incluye un script llamado `pruebaCoordenadas.py` que te ayuda a obtener fácilmente las coordenadas exactas del campo de chat de Twitch en tu pantalla. Solo ejecuta el script, mueve el mouse al campo de chat y espera unos segundos; el script mostrará las coordenadas que puedes usar en la configuración del bot.
+
+```sh
+python pruebaCoordenadas.py
+```
+
+Esto facilita la personalización del bot para diferentes resoluciones y navegadores.
+
 ## Notas
 
 - Las coordenadas del chat de Twitch (`CHAT_CLICK_COORDS`) pueden necesitar ser ajustadas según tu resolución de pantalla y navegador.
